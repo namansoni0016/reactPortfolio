@@ -14,7 +14,6 @@ const container = (delay) => ({
 })
 
 const pdfFunction = () => {
-    window.open(resume, '_blank');
     const link = document.createElement('a');
     link.href = resume;
     link.download = 'Naman Soni Resume.pdf';
