@@ -1,9 +1,9 @@
 import project1 from "../assets/p1.jpg";
-import project2 from "../assets/p2.jpg";
+import project2 from "../assets/p2.jpeg";
+import project3 from "../assets/p3.jpeg";
 
 export const HERO_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
-My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js and MongoDB. 
-I am passionate about crafting seamless user interfaces and efficient back-end architectures that not only solve real-world problems but also drive business success.`
+My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js and MongoDB.`
 
 export const ABOUT_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
 My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js and MongoDB. 
@@ -30,7 +30,7 @@ export const PROJECTS = [
         title: "Estate Edge",
         image: project1,
         github: "https://github.com/namansoni0016/estateEdge",
-        demo: "#",
+        demo: "https://estateedge.onrender.com",
         description: "A MERN stack real estate website allowing users to list properties for sale or rent. Integrated Firebase for storing images, implemented secure user authentication with JWT and Google OAuth. Developed features like advanced property search and image upload.",
         technologies: ["React.js", "Node.js", "MongoDB", "Redux"]
     },
@@ -38,9 +38,17 @@ export const PROJECTS = [
         title: "Money Mate",
         image: project2,
         github: "https://github.com/namansoni0016/expense-tracker",
-        demo: "#",
+        demo: "https://moneymate-mu.vercel.app/",
         description: "A MERN stack expense tracker application, incorporating Redux and React Query. Implemented a robust category-based system allowing users to create and manage income and expense categories, and dynamically link transactions to these categories.",
         technologies: ["React.js", "Node.js", "MongoDB", "Redux"],
+    },
+    {
+        title: "Calendar App",
+        image: project3,
+        github: "https://github.com/namansoni0016/calender-app",
+        demo: "#",
+        description: "Developed a scheduling and event booking application using Next.js, allowing users to create and manage events with timezone support for seamless cross-region collaboration integrating Google Calendar. Built responsive UIs using Tailwind CSS and Shadcn.",
+        technologies: ["Next.js", "TypeScript"],
     }
 ]
 
