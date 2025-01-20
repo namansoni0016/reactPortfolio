@@ -1,12 +1,13 @@
 import project1 from "../assets/p1.jpg";
 import project2 from "../assets/p2.jpeg";
 import project3 from "../assets/p3.jpeg";
+import project4 from "../assets/talkify.jpeg";
 
 export const HERO_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
-My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js and MongoDB.`
+My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js, MongoDB and AWS cloud.`
 
 export const ABOUT_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
-My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js and MongoDB. 
+My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js, MongoDB and AWS cloud. 
 I am passionate about crafting seamless user interfaces and efficient back-end architectures that not only solve real-world problems but also drive business success.
 By continuously refining my skills and staying updated with the latest technologies, I aim to deliver innovative, user-centric solutions that elevate the overall experience and foster business growth.`
 
@@ -26,6 +27,14 @@ export const EXPERIENCE = [
 ]
 
 export const PROJECTS = [
+    {
+        title: "Talkify",
+        image: project4,
+        github: "https://github.com/namansoni0016/talkify",
+        demo: "https://talkify-41hs.onrender.com",
+        description: "A chat application developed using the MERN stack and Socket.io, enabling real-time communication. Key features include one-to-one instant messaging, image sharing, online user tracking, multiple themes and profile updates.",
+        technologies: ["Socket.io", "React.js", "Node.js", "MongoDB"]
+    },
     {
         title: "Estate Edge",
         image: project1,
