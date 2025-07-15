@@ -5,10 +5,10 @@ import project4 from "../assets/talkify.jpeg";
 import project5 from "../assets/tripai.png";
 
 export const HERO_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
-My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js, MongoDB and AWS cloud.`
+My expertise spans across front-end technologies like React.js, Next.js & TailwindCSS, combined with back-end technologies like Node.js, MongoDB, PostgreSQL and AWS cloud.`
 
 export const ABOUT_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
-My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js, MongoDB and AWS cloud. 
+My expertise spans across front-end technologies like React.js, Next.js & TailwindCSS, combined with back-end technologies like Node.js, MongoDB, PostgreSQL and AWS cloud. 
 I am passionate about crafting seamless user interfaces and efficient back-end architectures that not only solve real-world problems but also drive business success.
 By continuously refining my skills and staying updated with the latest technologies, I aim to deliver innovative, user-centric solutions that elevate the overall experience and foster business growth.`
 
