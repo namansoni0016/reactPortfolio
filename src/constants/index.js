@@ -2,6 +2,7 @@ import project1 from "../assets/p1.jpg";
 import project2 from "../assets/p2.jpeg";
 import project3 from "../assets/p3.jpeg";
 import project4 from "../assets/talkify.jpeg";
+import project5 from "../assets/tripai.png";
 
 export const HERO_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
 My expertise spans across front-end technologies like React.js and Next.js, combined with back-end technologies like Node.js, MongoDB and AWS cloud.`
@@ -27,6 +28,14 @@ export const EXPERIENCE = [
 ]
 
 export const PROJECTS = [
+    {
+        title: "TripAI",
+        image: project5,
+        github: "https://github.com/namansoni0016/tripAI",
+        demo: "https://trip-ai-ten.vercel.app/",
+        description: "An AI powered travel itinerary generator made using Nextjs, Typescript, Neon, Prisma and Google Gemini API that allows users to create itineraries and provides functionality of interactive maps to get locations.",
+        technologies: ["Next.js", "Typescript", "PostgreSQL", "AI"]
+    },
     {
         title: "Talkify",
         image: project4,
