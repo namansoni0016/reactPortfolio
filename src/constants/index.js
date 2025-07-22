@@ -37,14 +37,6 @@ export const PROJECTS = [
         technologies: ["Next.js", "Typescript", "PostgreSQL", "AI"]
     },
     {
-        title: "Talkify",
-        image: project4,
-        github: "https://github.com/namansoni0016/talkify",
-        demo: "https://talkify-41hs.onrender.com",
-        description: "A chat application developed using the MERN stack and Socket.io, enabling real-time communication. Key features include one-to-one instant messaging, image sharing, online user tracking, multiple themes and profile updates.",
-        technologies: ["Socket.io", "React.js", "Node.js", "MongoDB"]
-    },
-    {
         title: "Estate Edge",
         image: project1,
         github: "https://github.com/namansoni0016/estateEdge",
