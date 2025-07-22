@@ -1,7 +1,6 @@
 import project1 from "../assets/p1.jpg";
 import project2 from "../assets/p2.jpeg";
 import project3 from "../assets/p3.jpeg";
-import project4 from "../assets/talkify.jpeg";
 import project5 from "../assets/tripai.png";
 
 export const HERO_CONTENT = `I am a versatile full stack developer with a strong focus on designing and developing scalable, high-performance web applications.
